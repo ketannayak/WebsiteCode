@@ -5,8 +5,9 @@
   color: #333;
   padding: 15px 30px 15px 30px;
   background: #F7F7F7;
-  font-family: Roboto,sans-serif;
-  font-weight: 300;
+  /*font-family: 'Roboto', sans-serif;*/
+font-family:'Open Sans', sans-serif;
+  font-weight: 400;
   line-height: 2.18;
   font-size: 15px;
   text-decoration: none;
@@ -26,6 +27,7 @@
 	left:0;
 	width:100%;
 	z-index: 990;
+	box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px 0px;
 }
 
 .nav a:hover{
@@ -69,7 +71,8 @@ background-color: #F7F7F7;
 
 h1{
 	color: #40b1e2;
-	font-family: 'Roboto',sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family:'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 60px;
 	font-style: normal;
@@ -83,7 +86,8 @@ h1{
 }
 .subtitle {
 	color: rgb(69,69,69);
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family:'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 25px;
 	font-style: normal;
@@ -99,14 +103,15 @@ h1{
 
  h2{
 	color: #40b1e2;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family:'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
 	height: auto;
 	margin-top:  0px;
-	margin-bottom:30px;
+	margin-bottom:0px;
 	margin-right: 0px;
 	margin-left:0px;
 }
@@ -114,7 +119,8 @@ h1{
 
 h3{
 color: rgb(69,69,69);
-font-family: 'Roboto', sans-serif;
+/*font-family: 'Roboto', sans-serif;*/
+font-family:'Open Sans', sans-serif;
 font-weight: 100;
 font-size: 25px;
 font-style: normal;
@@ -131,6 +137,7 @@ hr{
 	color: rgb(69,69,69);
 	margin-top: 40px;
 	margin-bottom:40px;
+	clear:both;
 }
 
 .homepagebigimage{
@@ -162,7 +169,8 @@ box-sizing: border-box;
 color: rgb(68, 68, 68);
 cursor: pointer;
 display: inline-block;
-font-family: Roboto, sans-serif;
+/*font-family: 'Roboto', sans-serif;*/
+font-family:'Open Sans', sans-serif;
 font-size: 25px;
 font-weight: 300;
 height: 44px;
@@ -207,14 +215,15 @@ width: 30%;
 }
 
 .footer p{
-color: rgb(85,85,85);
-font-family: 'Roboto', sans-serif;
-font-weight: 300;
-font-size: 14px;
-font-style: normal;
-font-variant: normal;
-height: auto;
-margin-top:  10px;
+	color: rgb(85,85,85);
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family:'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	height: auto;
+	margin-top:  10px;
 	margin-bottom:0px;
 	margin-right: 0px;
 	margin-left:0px;
@@ -247,7 +256,7 @@ margin-top:  10px;
 	margin-left:auto;
 	margin-right:auto;
 	height: auto;
-	width: 17.5%;
+	width: 216px;
 	border:10px solid;
 	border-radius: 100%;
 	border-color: #e6e6e6;
@@ -261,45 +270,46 @@ margin-top:  10px;
 	width: 30em;
 	}
 	
-p{
-color: rgb(69,69,69);
-font-family: 'Roboto', sans-serif;
-font-weight: 300;
-font-size: 16px; 
-line-height: 218%;
-height: auto;
-}	
 
 .container{
 	margin-left:auto;
 	margin-right:auto;
 	width:65%;
-
 }
-
 
 h4{
 	color: rgb(69,69,69);
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+font-family:'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
-	height: 19px;
 	margin-top:  10px;
 	margin-bottom:10px;
 	box-sizing: border-box;
 	display:block;
 }
 
-.col1{
-float:left;
-}
-.col2{
-float:left;
-}
+p{
+color: rgb(69,69,69);
+/*font-family: 'Roboto', sans-serif;*/
+font-family:'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 16px; 
+line-height: 218%;
+height: auto;
+}	
 
-
+li{
+color: rgb(69,69,69);
+/*font-family: 'Roboto', sans-serif;*/
+font-family:'Open Sans', sans-serif;
+font-weight: 300;
+font-size: 16px; 
+line-height: 150%;
+height: auto;
+}	
 
 
 
