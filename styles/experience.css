@@ -24,15 +24,6 @@ line-height:150%;
 margin-bottom:25px;
 }
 
-/* .experiencesecondtable td:nth-child(1) {  
-  width: 50%;
-}
-
-.experiencesecondtable td{
-vertical-align: top;
-padding-bottom: 25px;
-text-align: center;
-} */
 
 .experienceicon{
 color: rgb(69,69,69);
@@ -183,4 +174,9 @@ color: #40b1e2;
 
 .workexdetaillinks{
 color: #40b1e2;
+}
+
+
+li {
+margin-bottom: 15px;
 }
